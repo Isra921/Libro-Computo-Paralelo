@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Cómputo Paralelo - Polilibro Académico</title>
+    <meta
+        content="Polilibro académico interactivo de la Unidad de Aprendizaje Cómputo Paralelo de la Escuela Superior de Cómputo (ESCOM - IPN)."
+        name="description" />
+    <link href="assets/css/variables.css" rel="stylesheet" />
+    <link href="assets/css/global.css" rel="stylesheet" />
+    <link href="assets/css/comun.css" rel="stylesheet" />
+    <link href="assets/css/inicio.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <link href="assets/img/ESCOMB.png" rel="icon" type="image/png" />
+    <link href="assets/img/ESCOMB.png" rel="shortcut icon" type="image/png" />
+</head>
+
+<body data-root="">
+    <header class="site-nav" data-componente="navegacion"></header>
+    <main class="container">
+        <section class="hero-section">
+            <img alt="Instituto Politécnico Nacional" class="hero-emblem hero-emblem-ipn" src="assets/img/IPNb.png" />
+            <img alt="ESCOM" class="hero-emblem hero-emblem-escom" src="assets/img/ESCOMB.png" />
+            <div aria-label="Identidad institucional" class="hero-institutional">
+                <div class="hero-title-lockup">
+                    <span class="hero-title-ipn">Instituto Politécnico Nacional</span>
+                    <span class="hero-title-escom">Escuela Superior de Cómputo</span>
+                    <h1 class="hero-title-materia" style="font-size: calc(var(--hero-title-base) * 1.5)">Cómputo Paralelo</h1>
+                </div>
+            </div>
+            <div class="hero-content">
+                <div class="hero-copy">
+                    <div class="hero-actions">
+                        <a class="cta-button" href="unidades.html">Ver unidades <i class="fas fa-arrow-right"></i></a>
+                        <a class="secondary-button" href="unidades/unidad-01/index.html">Empezar en la Unidad 1</a>
+                    </div>
+                    <div aria-label="Resumen del material" class="hero-stats">
+                        <span><strong>5</strong> unidades</span>
+                        <span><strong>23</strong> temas</span>
+                        <span><strong>28</strong> actividades</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="welcome-section" id="seccion-bienvenida">
+            <div class="welcome-copy">
+                <h2>Bienvenida</h2>
+                <div aria-label="Bienvenida completa" class="welcome-content" role="region" tabindex="0"><p class="t-callout"><strong>Edición provisional.</strong> Contenido de muestra pendiente de validación académica. Los títulos y la organización se basan en el programa proporcionado; los desarrollos y ejercicios son provisionales.</p><p>Bienvenida y bienvenido al polilibro de <strong>Cómputo Paralelo</strong> de Ingeniería en Inteligencia Artificial. Aquí explorarás cómo dividir problemas, coordinar tareas y evaluar soluciones que aprovechan varios recursos de procesamiento.</p><p>El recorrido abarca arquitecturas paralelas, diseño de algoritmos, memoria compartida, sistemas distribuidos y flujo de datos. Solo están habilitados el tema 1.1, su actividad interactiva y la actividad final de la unidad I como ejemplos de prueba. El resto está pendiente de validación.</p><p>Trabaja con ejemplos, compara alternativas y explica tus resultados. El propósito del programa es diseñar aplicaciones paralelas con base en el cómputo paralelo.</p></div>
+            </div>
+            <div class="material-panel" id="material">
+                <h3>Secciones del material</h3>
+                <div class="quick-links">
+                    <button class="quick-link" data-modal="introduccion" type="button">
+                        <i aria-hidden="true" class="fas fa-lightbulb"></i>
+                        <span>Introducción<small>Contexto y objetivos de la materia.</small></span>
+                    </button>
+                    <button class="quick-link" data-modal="plan-estudios" type="button">
+                        <i aria-hidden="true" class="fas fa-file-alt"></i>
+                        <span>Programa académico<small>Propósitos y organización del curso.</small></span>
+                    </button>
+                    <button class="quick-link" data-modal="metodologia" type="button">
+                        <i aria-hidden="true" class="fas fa-sitemap"></i>
+                        <span>Metodología<small>Estrategia y métodos de aprendizaje.</small></span>
+                    </button>
+                    <button class="quick-link" data-modal="examen" type="button">
+                        <i aria-hidden="true" class="fas fa-file-signature"></i>
+                        <span>Examen diagnóstico<small>Revisa tus conocimientos previos.</small></span>
+                    </button>
+                    <button class="quick-link" data-modal="actividades" type="button">
+                        <i aria-hidden="true" class="fas fa-gamepad"></i>
+                        <span>Actividades<small>Ejercicios por tema y por unidad.</small></span>
+                    </button>
+                    <button class="quick-link" data-modal="glosario" type="button">
+                        <i aria-hidden="true" class="fas fa-book"></i>
+                        <span>Glosario de términos<small>Consulta los conceptos principales.</small></span>
+                    </button>
+                    <button class="quick-link" data-modal="autores" type="button">
+                        <i aria-hidden="true" class="fas fa-users"></i>
+                        <span>Autores y colaboradores<small>Conoce al equipo del polilibro.</small></span>
+                    </button>
+                    <button class="quick-link" data-modal="licencia" type="button">
+                        <i aria-hidden="true" class="fab fa-creative-commons"></i>
+                        <span>Términos de uso y licenciamiento<small>Condiciones de uso del material.</small></span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="cta-section"><a class="cta-button" href="unidades.html">Explorar las unidades <i
+                    class="fas fa-arrow-right"></i></a></section>
+        <footer>
+            <p>Cómputo Paralelo - Polilibro académico</p>
+            <p>Desarrollado para fines educativos - © 2026</p>
+        </footer>
+    </main>
+    <div class="modal-overlay" id="modal-container">
+        <div class="modal-content">
+            <button aria-label="Cerrar ventana" class="modal-close-btn" id="modal-close-button" type="button">
+                <i aria-hidden="true" class="fas fa-times"></i>
+            </button>
+            <div class="modal-body prose">
+                <div class="modal-section" id="modal-introduccion"><h3>Introducción</h3><p>Cómputo Paralelo es una unidad teórica-práctica obligatoria del sexto semestre de Ingeniería en Inteligencia Artificial.</p><h3>Propósito general</h3><p>Diseña aplicaciones paralelas con base en el cómputo paralelo.</p><h3>Organización del curso</h3><ul><li>Unidad I · Acercamiento al cómputo paralelo</li><li>Unidad II · Diseño y análisis de programas paralelos</li><li>Unidad III · Programación paralela en sistemas de memoria compartida</li><li>Unidad IV · Programación paralela en sistemas distribuidos</li><li>Unidad V · Programación basada en el flujo de datos</li></ul><p>Contenido de muestra pendiente de validación académica. Los títulos y la organización se basan en el programa proporcionado; los desarrollos y ejercicios son provisionales.</p></div>
+<div class="modal-section" id="modal-metodologia"><h3>Metodología de trabajo</h3><p>El programa contempla métodos inductivo, deductivo y analógico, aprendizaje basado en problemas y aprendizaje autónomo.</p><p>Se proponen organizadores gráficos, ejercicios, solución de problemas, programas funcionando y reportes de prácticas. La evaluación incluye diagnóstico, portafolio de evidencias y evaluaciones escritas.</p><h3>Tiempos y créditos</h3><p>81 horas semestrales: 54 de teoría y 27 de práctica. Aprendizaje autónomo: 18 horas. Créditos: 7.5 TEPIC y 6.0 SATCA. Se incluyen seis prácticas de laboratorio.</p><p>Contenido de muestra pendiente de validación académica. Los títulos y la organización se basan en el programa proporcionado; los desarrollos y ejercicios son provisionales.</p></div>
+<div class="modal-section" id="modal-examen"><h3>Examen diagnóstico · Muestra provisional</h3><p>Doce preguntas sobre algoritmos, memoria y nociones de paralelismo. Completa los datos de identificación para probar el instrumento. Los resultados son orientativos, sin valor en la calificación final.</p><p>Contenido de muestra pendiente de validación académica. Los títulos y la organización se basan en el programa proporcionado; los desarrollos y ejercicios son provisionales.</p><hr />
+                    <div class="diagnostic-notice">
+                        <p class="diagnostic-notice-title">
+                            <i class="fas fa-exclamation-circle"></i> Antes de iniciar:
+                        </p>
+                        <p class="diagnostic-notice-text">Antes de contestar los 12 reactivos, completa los siguientes
+                            datos de identificación:</p>
+                        <ul class="diagnostic-list">
+                            <li>Escribe tu número de <strong>boleta</strong>.</li>
+                            <li>Escribe tu <strong>nombre completo</strong>.</li>
+                        </ul>
+                    </div>
+                    <div class="diagnostic-exam"
+                        data-question-file="assets/data/examen-diagnostico.json"
+                        id="diagnostic-exam">
+                        <div class="diagnostic-status" id="diagnostic-loading" role="status">
+                            <i aria-hidden="true" class="fas fa-spinner fa-spin"></i>
+                            Preparando el examen
+                        </div>
+                        <div class="diagnostic-status diagnostic-status-error" hidden="" id="diagnostic-error"
+                            role="alert">
+                            <i aria-hidden="true" class="fas fa-triangle-exclamation"></i>
+                            <span id="diagnostic-error-text">No fue posible cargar el examen.</span>
+                        </div>
+                        <form hidden="" id="diagnostic-form" novalidate="">
+                            <section aria-labelledby="diagnostic-identification-title" class="diagnostic-panel">
+                                <h4 id="diagnostic-identification-title">Datos del estudiante</h4>
+                                <p class="diagnostic-privacy">
+                                    <i aria-hidden="true" class="fas fa-shield-halved"></i>
+                                    Durante esta aplicación los datos permanecen únicamente en esta pestaña y no se
+                                    envían ni se almacenan.
+                                </p>
+                                <div class="diagnostic-fields">
+                                    <label>
+                                        <span>Boleta <strong aria-hidden="true">*</strong></span>
+                                        <input autocomplete="off" id="diagnostic-student-id" inputmode="numeric"
+                                            maxlength="20" name="boleta" required="" type="text" />
+                                    </label>
+                                    <label>
+                                        <span>Nombre completo <strong aria-hidden="true">*</strong></span>
+                                        <input autocomplete="name" id="diagnostic-student-name" maxlength="120"
+                                            name="nombreCompleto" required="" type="text" />
+                                    </label>
+                                </div>
+                            </section>
+                            <div aria-live="polite" class="diagnostic-progress">
+                                <div class="diagnostic-progress-copy">
+                                    <span id="diagnostic-progress-text">0 de 0 reactivos respondidos</span>
+                                    <span id="diagnostic-progress-percent">0%</span>
+                                </div>
+                                <div aria-hidden="true" class="diagnostic-progress-track">
+                                    <span id="diagnostic-progress-bar"></span>
+                                </div>
+                            </div>
+                            <div class="diagnostic-questions" id="diagnostic-questions"></div>
+                            <div class="diagnostic-actions">
+                                <button class="diagnostic-primary-button" id="diagnostic-submit" type="submit">
+                                    <i aria-hidden="true" class="fas fa-paper-plane"></i>
+                                    Finalizar examen
+                                </button>
+                                <p class="diagnostic-form-message" id="diagnostic-form-message" role="alert"></p>
+                            </div>
+                        </form>
+                        <section aria-live="polite" class="diagnostic-panel diagnostic-result" hidden=""
+                            id="diagnostic-result">
+                            <i aria-hidden="true" class="fas fa-circle-check diagnostic-result-icon"></i>
+                            <h4>Examen finalizado</h4>
+                            <p id="diagnostic-result-summary"></p>
+                            <p class="diagnostic-privacy">Resultado de demostración: no se envió información a ningún
+                                servidor.</p>
+                            <button class="diagnostic-secondary-button" id="diagnostic-restart" type="button">Realizar
+                                otra prueba</button>
+                        </section>
+                    </div>
+                </div>
+                <div class="modal-section" id="modal-licencia">
+                    <h3>Licencia Creative Commons</h3>
+                    <p style="text-align: center;">
+                        <i class="fab fa-creative-commons" style="font-size: 5rem; color: var(--primary);"></i>
+                    </p>
+                    <p><a href="index.html">Cómputo Paralelo (polilibro académico), Aplicaciones
+                            para Comunicaciones en Red</a> © 2026 by <a href="index.html">Yaxkin Flores Mendoza, Israel
+                            Salas Ramirez y Daniel Cruz García</a> is licensed under <a
+                            href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a><img alt=""
+                            src="https://mirrors.creativecommons.org/presskit/icons/cc.svg"
+                            style="max-width: 1em;max-height:1em;margin-left: .2em;" /><img alt=""
+                            src="https://mirrors.creativecommons.org/presskit/icons/by.svg"
+                            style="max-width: 1em;max-height:1em;margin-left: .2em;" /><img alt=""
+                            src="https://mirrors.creativecommons.org/presskit/icons/nc.svg"
+                            style="max-width: 1em;max-height:1em;margin-left: .2em;" /><img alt=""
+                            src="https://mirrors.creativecommons.org/presskit/icons/nd.svg"
+                            style="max-width: 1em;max-height:1em;margin-left: .2em;" /></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-overlay" id="video-player-overlay"
+        style="z-index: 2000; background-color: color-mix(in srgb, var(--shadow-color) 95%, transparent);">
+        <div class="video-modal-content"
+            style="position: relative; width: min(90vw, 900px); aspect-ratio: 16/9; background: #000; border-radius: 12px; overflow: hidden; box-shadow: 0 0 30px rgba(0,0,0,0.8);">
+            <button aria-label="Cerrar reproductor" class="modal-close-btn" onclick="closeVideoPlayer()"
+                style="color: var(--white); z-index: 10; top: 12px; right: 12px;"><i class="fas fa-times"></i></button>
+            <iframe allow="autoplay; encrypted-media" allowfullscreen="" id="main-video-frame"
+                style="width: 100%; height: 100%; border: none;"></iframe>
+        </div>
+    </div>
+    <script src="assets/js/data-manager.js"></script>
+    <script src="assets/js/componentes.js"></script>
+    <script src="assets/js/paginas/index.js"></script>
+    <script src="assets/js/examen-diagnostico.js"></script>
+</body>
+
+</html>

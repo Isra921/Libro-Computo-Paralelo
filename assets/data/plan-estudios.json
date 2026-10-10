@@ -1,0 +1,181 @@
+{
+  "titulo": "Plan de Estudios",
+  "boton_cerrar": "Cerrar ventana",
+  "archivo_pdf": "assets/docs/computoParalelo_IIA2020.pdf",
+  "datos_generales": {
+    "institucion": "Instituto Politécnico Nacional",
+    "secretaria": "Secretaría Académica · Dirección de Educación Superior",
+    "unidad_academica": "UPIIC · ESCOM · UPIIT",
+    "programa_academico": "Ingeniería en Inteligencia Artificial",
+    "unidad_aprendizaje": "Cómputo Paralelo",
+    "semestre": "VI Semestre",
+    "area_formacion": "Profesional",
+    "modalidad": "Escolarizada",
+    "tipo": "Teórica-Práctica / Obligatoria",
+    "vigencia": "Agosto 2022",
+    "creditos_tepic": "7.5",
+    "creditos_satca": "6.0",
+    "horas_teoria_semana": "3.0 h",
+    "horas_practica_semana": "1.5 h",
+    "horas_teoria_semestre": "54.0 h",
+    "horas_practica_semestre": "27.0 h",
+    "horas_autonomo_semestre": "18.0 h",
+    "horas_totales": "81.0 h",
+    "plan_estudios": "(vigente desde agosto de 2022)"
+  },
+  "proposito": "Diseña aplicaciones paralelas con base en el cómputo paralelo.",
+  "intencion_educativa": "Desarrollo de habilidades técnicas de diseño, implementación y evaluación de algoritmos paralelos para problemas que requieren soluciones de alto desempeño; trabajo colaborativo, comunicación asertiva y toma de decisiones con responsabilidad y ética. Antecedente: Algoritmos y Estructuras de Datos.",
+  "orientacion_didactica": {
+    "metodos_ensenanza": "Inductivo, deductivo y analógico",
+    "estrategias_aprendizaje": "Aprendizaje basado en problemas y aprendizaje autónomo"
+  },
+  "unidades_tematicas": [
+    {
+      "numero": "I",
+      "titulo": "Acercamiento al cómputo paralelo",
+      "competencia": "Describe los tipos de arquitectura paralela con base en sus alcances, características y aplicaciones.",
+      "horas_docente": "6.0 h (6.0 h teoría / 0.0 h práctica)",
+      "horas_autonomo": "2.0 h",
+      "temas": [
+        "1.1 Motivación, bases y alcances del cómputo paralelo: características: Comunicación entre procesos; Programas concurrentes, paralelos y distribuidos; Hilos; Exactitud de los programas concurrentes; Sistemas distribuidos",
+        "1.2 Arquitecturas de computadoras paralelas: Procesadores multinúcleo; Arreglos de procesadores; Computadoras multiprocesadores; Clusters; Computadoras de arquitecturas no convencionales; Redes de interconexión",
+        "1.3 Taxonomía de Flynn: Instrucción única, flujo de datos único (SISD); Instrucción única, flujo de datos múltiple (SIMD); Instrucciones múltiples, flujo de datos único (MISD); Instrucciones múltiples, flujo de datos múltiple (MIMD); Aplicaciones",
+        "1.4 Modelos de cómputo paralelo: Modelos de memoria compartida; Modelos de interconexión de red, memoria distribuida o paso de mensajes; Modelo de flujo de datos; Aplicaciones"
+      ]
+    },
+    {
+      "numero": "II",
+      "titulo": "Diseño y análisis de programas paralelos",
+      "competencia": "Distingue el diseño de algoritmos paralelos a partir de los tipos de paralelización, el método de Foster y su análisis de rendimiento.",
+      "horas_docente": "18.0 h (12.0 h teoría / 6.0 h práctica)",
+      "horas_autonomo": "4.0 h",
+      "temas": [
+        "2.1 Clases de problemas solucionables usando cómputo paralelo: Tareas paralelizables",
+        "2.2 Tipos de paralelización: Paralelización funcional; Paralelización de datos; Paralelización recursiva; Paralelización exploratoria; Paralelización especulativa",
+        "2.3 Diseño de algoritmos paralelos: Descomposición del problema; Granularidad de la computación; Minimización de costos del algoritmo paralelo; Asignación de tareas a las unidades de procesamiento",
+        "2.4 Método Foster: Particionamiento; Comunicación; Aglomeración; Mapeo",
+        "2.5 Análisis de rendimiento para programas paralelos: Métricas de desempeño; Escalabilidad de los sistemas paralelos; Función de isoeficiencia; Ley de Amdahl; Ley de Gustafson-Barsis; Métrica de Karp-Flatt"
+      ]
+    },
+    {
+      "numero": "III",
+      "titulo": "Programación paralela en sistemas de memoria compartida",
+      "competencia": "Elabora programas paralelos con base en las políticas y la memoria compartida.",
+      "horas_docente": "19.0 h (12.0 h teoría / 7.0 h práctica)",
+      "horas_autonomo": "4.0 h",
+      "temas": [
+        "3.1 Cómputo paralelo usando memoria compartida: Arquitecturas multinúcleo y multisocket; Modelos de memoria compartida",
+        "3.2 Caché: Número de cachés; Tamaños de caché; Mapeo de bloques de memoria a bloques de caché",
+        "3.3 Política de escritura: Política write-through; Política write-back",
+        "3.4 Coherencia de caché: Protocolos snooping; Protocolos basados en directorio",
+        "3.5 Consistencia de memoria: Consistencia secuencial",
+        "3.6 Interfaces de programación de aplicaciones y lenguajes de programación"
+      ]
+    },
+    {
+      "numero": "IV",
+      "titulo": "Programación paralela en sistemas distribuidos",
+      "competencia": "Elabora programas paralelos con base en las políticas y la memoria distribuida.",
+      "horas_docente": "19.0 h (12.0 h teoría / 7.0 h práctica)",
+      "horas_autonomo": "4.0 h",
+      "temas": [
+        "4.1 Cómputo paralelo usando memoria distribuida: Arquitecturas de red; Arquitectura de memoria distribuida con acoplamiento fuerte y débil; Arquitectura de memoria distribuida con acoplamiento bajo",
+        "4.2 Ruteo: Algoritmos de ruteo para transmisión y multitransmisión; Algoritmos de estancamiento y ruteo",
+        "4.3 Conmutación: Conmutación de conexión; Conmutación de paquetes",
+        "4.4 APIs y lenguajes de programación"
+      ]
+    },
+    {
+      "numero": "V",
+      "titulo": "Programación basada en el flujo de datos",
+      "competencia": "Elabora programas paralelos con base en principios de aceleradores paralelos y procesadores de flujo.",
+      "horas_docente": "19.0 h (12.0 h teoría / 7.0 h práctica)",
+      "horas_autonomo": "4.0 h",
+      "temas": [
+        "5.1 Cómputo paralelo usando flujos de datos",
+        "5.2 Aceleradores paralelos: Principios; Características; Aplicaciones",
+        "5.3 Procesadores de flujo",
+        "5.4 APIs y lenguajes de programación"
+      ]
+    }
+  ],
+  "practicas": [
+    {
+      "numero": 1,
+      "nombre": "Plataformas y herramientas para el cómputo paralelo",
+      "horas": "27 h en conjunto; sin desglose individual",
+      "lugar": "Laboratorio de cómputo"
+    },
+    {
+      "numero": 2,
+      "nombre": "Análisis y diseño de programas paralelos",
+      "horas": "27 h en conjunto; sin desglose individual",
+      "lugar": "Laboratorio de cómputo"
+    },
+    {
+      "numero": 3,
+      "nombre": "Análisis de rendimiento de programas paralelos",
+      "horas": "27 h en conjunto; sin desglose individual",
+      "lugar": "Laboratorio de cómputo"
+    },
+    {
+      "numero": 4,
+      "nombre": "Programas de cómputo paralelo usando memoria compartida",
+      "horas": "27 h en conjunto; sin desglose individual",
+      "lugar": "Laboratorio de cómputo"
+    },
+    {
+      "numero": 5,
+      "nombre": "Programas de cómputo paralelo usando memoria distribuida",
+      "horas": "27 h en conjunto; sin desglose individual",
+      "lugar": "Laboratorio de cómputo"
+    },
+    {
+      "numero": 6,
+      "nombre": "Programas de cómputo usando aceleradores paralelos I",
+      "horas": "27 h en conjunto; sin desglose individual",
+      "lugar": "Laboratorio de cómputo"
+    }
+  ],
+  "evaluacion": [
+    "Evaluación diagnóstica y saberes previamente adquiridos.",
+    "Portafolio de evidencias: organizadores gráficos, ejercicios y problemas resueltos.",
+    "Programas funcionando según requerimientos y reportes de prácticas.",
+    "Evaluaciones escritas."
+  ],
+  "bibliografia": [
+    {
+      "tipo": "Básica",
+      "autor": "Czech, J.",
+      "anio": "2016",
+      "titulo": "Introduction to parallel computing",
+      "editorial": "Cambridge University Press",
+      "isbn": "9781107174399"
+    },
+    {
+      "tipo": "Básica",
+      "autor": "Grama, A., Kumar, V., Gupta, A. y Karypis, G.",
+      "anio": "2003",
+      "titulo": "Introduction to Parallel Computing",
+      "editorial": "Addison-Wesley",
+      "isbn": "0201648652"
+    },
+    {
+      "tipo": "Básica",
+      "autor": "Pacheco, P.",
+      "anio": "2011",
+      "titulo": "An Introduction to Parallel Computing",
+      "editorial": "Morgan Kaufmann",
+      "isbn": "9780123742605"
+    },
+    {
+      "tipo": "Complementaria",
+      "autor": "Foster, I.",
+      "anio": "1995",
+      "titulo": "Designing and Building Parallel Programs: Concepts and Tools for Parallel Software Engineering",
+      "editorial": "Addison-Wesley",
+      "isbn": "9780201575941"
+    }
+  ],
+  "recursos_digitales": []
+}

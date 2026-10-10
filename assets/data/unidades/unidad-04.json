@@ -1,0 +1,79 @@
+{
+  "id": "unidad-04",
+  "numero": 4,
+  "titulo": "Programación paralela en sistemas distribuidos",
+  "descripcion": "Elabora programas paralelos con base en las políticas y la memoria distribuida.",
+  "lema": "Explora, diseña y analiza soluciones paralelas. Edición provisional.",
+  "duracion_horas": 19,
+  "introduccion": [
+    "Contenido de muestra pendiente de validación académica. Los títulos y la organización se basan en el programa proporcionado; los desarrollos y ejercicios son provisionales.",
+    "Cada proceso dispone de memoria local y comunica los datos que necesitan otros procesos. Una suma distribuida divide el arreglo, calcula sumas locales y combina sus resultados mediante comunicación."
+  ],
+  "recorrido": "Lee cada tema, consulta sus subtemas y realiza los ejercicios de muestra antes de la actividad integradora.",
+  "temas": [
+    {
+      "numero": "4.1",
+      "nombre": "Cómputo paralelo usando memoria distribuida",
+      "sintesis": "Cada proceso dispone de memoria local y comunica los datos que necesitan otros procesos. Una suma distribuida divide el arreglo, calcula sumas locales y combina sus resultados mediante comunicación.",
+      "url": "",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 4.1",
+        "url": ""
+      }
+    },
+    {
+      "numero": "4.2",
+      "nombre": "Ruteo",
+      "sintesis": "El ruteo decide por dónde viaja la información entre nodos. La topología y las rutas afectan la latencia, la congestión y la posibilidad de bloqueo. Una comunicación colectiva puede requerir varios pasos.",
+      "url": "",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 4.2",
+        "url": ""
+      }
+    },
+    {
+      "numero": "4.3",
+      "nombre": "Conmutación",
+      "sintesis": "La conmutación organiza el uso de enlaces para transferir información. Reservar una conexión y dividir un mensaje en paquetes son estrategias distintas, con efectos sobre el establecimiento, el almacenamiento y la utilización de recursos.",
+      "url": "",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 4.3",
+        "url": ""
+      }
+    },
+    {
+      "numero": "4.4",
+      "nombre": "APIs y lenguajes de programación",
+      "sintesis": "Las interfaces de paso de mensajes ofrecen operaciones para enviar, recibir y combinar datos. El diseño debe hacer coincidir participantes, tipos de datos y orden de operaciones para evitar esperas que impidan avanzar.",
+      "url": "",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 4.4",
+        "url": ""
+      }
+    }
+  ],
+  "objetivo": "Elabora programas paralelos con base en las políticas y la memoria distribuida.",
+  "competencias": [
+    "Elabora programas paralelos con base en las políticas y la memoria distribuida.",
+    "Justifica decisiones de diseño y comprueba resultados con evidencias reproducibles."
+  ],
+  "video": {
+    "titulo": "Video pendiente de validación",
+    "url": ""
+  },
+  "material_apoyo": [
+    {
+      "nombre": "Referencias de la unidad",
+      "url": "unidades/unidad-04/referencias.html"
+    },
+    {
+      "nombre": "Programa académico (PDF)",
+      "url": "assets/docs/computoParalelo_IIA2020.pdf"
+    }
+  ],
+  "actividad_final": {
+    "nombre": "Actividad integradora 4: Programación paralela en sistemas distribuidos",
+    "descripcion": "Próximamente. Actividad pendiente de validación académica.",
+    "url": ""
+  }
+}

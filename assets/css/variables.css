@@ -1,0 +1,101 @@
+/* ==========================================================================
+   PALETA GLOBAL DEL POLILIBRO (Cómputo Paralelo)
+   Fuente de verdad visual basada en la página de inicio (index.html).
+   Todos los módulos, temas, actividades y evaluaciones dependen de esta paleta.
+   ========================================================================== */
+
+:root {
+  /* --- Fondos y Estructura Visual (Página de Inicio) --- */
+  --bg-deep: #10162F;       /* Fondo base de todo el sitio */
+  --bg-main: #192447;       /* Fondo principal de secciones y contenedores hero */
+  --bg-section: #24335B;    /* Barra de navegación superior y cabeceras de sección */
+  --bg-hero: #111B38;       /* Fondo oscuro institucional del hero */
+  --surface: #30436A;       /* Fondo de tarjetas, paneles y bloques informativos */
+  --surface-hover: #3D5282; /* Fondo al pasar el cursor sobre tarjetas y controles */
+  --footer-bg: #0D1329;     /* Fondo del pie de página */
+
+  /* --- Colores Primarios, Secundarios y Acentos --- */
+  --primary: #67E8F9;       /* Azul cielo vibrante de alto contraste (WCAG AAA) */
+  --primary-hover: #A5F3FC; /* Azul cielo luminoso en estado hover */
+  --secondary: #67E8F9;     /* Alias secundario sincronizado con el primario */
+  --secondary-hover: #A5F3FC;
+  --accent: #B8A4FA;        /* Turquesa / aguamarina de acento e iconografía */
+  --accent-hover: #D4C6FF;
+  --primary-soft: color-mix(in srgb, var(--primary) 16%, transparent);
+  --accent-soft: color-mix(in srgb, var(--accent) 16%, transparent);
+  --info: var(--primary);
+
+  /* --- Botones y Llamados a la Acción (CTA) --- */
+  --cta-color: #10162F;     /* Contraste oscuro óptimo sobre fondo claro */
+  --cta-hover: #090F22;     /* Hover para botones CTA */
+  --cta-bg: linear-gradient(135deg, var(--accent), var(--primary));
+
+  /* --- Tipografía y Textos (Alto Contraste) --- */
+  --text-light: #FFFFFF;       /* Texto principal blanco puro para máxima legibilidad */
+  --text-muted-light: #E2E8F0; /* Texto secundario gris claro nítido */
+  --text-soft: #F1F5F9;        /* Párrafos, citas y descripciones altamente legibles */
+  --text: var(--text-light);
+  --text-muted: var(--text-muted-light);
+  --white: #FFFFFF;
+  --dark: var(--bg-deep);
+  --gray: var(--text-muted-light);
+  --title-mid: #FFFFFF;
+  --title-end: #D4C6FF;
+
+  /* --- Bordes y Sombras --- */
+  --border-color: color-mix(in srgb, var(--text-light) 12%, transparent);
+  --border-soft: color-mix(in srgb, var(--text-light) 14%, transparent);
+  --border: var(--border-color);
+  --card-border: var(--border-color);
+  --shadow-color: #000000;
+  --shadow-soft: 0 8px 24px color-mix(in srgb, var(--shadow-color) 18%, transparent);
+  --shadow-card: 0 8px 25px color-mix(in srgb, var(--shadow-color) 20%, transparent);
+  --card-shadow: var(--shadow-card);
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-pill: 999px;
+
+  /* --- Gradientes Temáticos Globales (Unidades y Destacados) --- */
+  --gradient-unit-1: linear-gradient(135deg, var(--bg-main), var(--surface));
+  --gradient-unit-2: linear-gradient(135deg, var(--surface), var(--bg-section));
+  --gradient-unit-3: linear-gradient(135deg, var(--bg-section), var(--surface-hover));
+  --page-bg: var(--bg-deep);
+
+  /* --- Paneles, Evaluaciones y Componentes Interactivos --- */
+  --bg: var(--bg-main);
+  --card-bg: var(--surface);
+  --soft-panel: color-mix(in srgb, var(--surface) 35%, transparent);
+  --submenu-bg: color-mix(in srgb, var(--shadow-color) 25%, transparent);
+  --intro-border: var(--accent);
+  --case-color: var(--primary);
+  --monster-color: var(--accent);
+
+  /* --- Barras de Desplazamiento (Scrollbars) --- */
+  --scroll-track: var(--footer-bg);
+  --scroll-thumb: var(--surface);
+  --scroll-thumb-hover: var(--primary);
+
+  /* --- Iconografía --- */
+  --icon-blue: #9EDCFF;
+  --icon-teal: #63E4D8;
+  --icon-bg-blue: color-mix(in srgb, var(--icon-blue) 14%, transparent);
+  --icon-bg-teal: color-mix(in srgb, var(--icon-teal) 14%, transparent);
+
+  /* --- Estados Semánticos --- */
+  --success: #41B883;
+  --warning: #D9A441;
+  --danger: #D96464;
+  --quiz-correct: var(--success);
+  --quiz-incorrect: var(--danger);
+
+  /* --- Compatibilidad Legacy (Unidad 3.1, etc.) --- */
+  --azul: var(--primary);
+  --azul-oscuro: var(--bg-main);
+  --rojo: var(--danger);
+  --gris: var(--surface);
+  --borde: var(--border-color);
+  --texto: var(--text-light);
+}
+
+:root { --gradient-unit-4: linear-gradient(135deg, var(--bg-main), var(--surface-hover)); --gradient-unit-5: linear-gradient(135deg, var(--bg-section), var(--surface)); }

@@ -1,0 +1,327 @@
+{
+  "version": 1,
+  "modoPrueba": true,
+  "titulo": "Examen diagnóstico",
+  "descripcion": "Diagnóstico provisional de algoritmos, memoria y conceptos introductorios de cómputo paralelo. Pendiente de validación.",
+  "configuracion": {
+    "mostrarResultado": true,
+    "cantidadPreguntas": 12,
+    "mezclarPreguntas": false,
+    "mezclarOpciones": false,
+    "endpointEnvio": ""
+  },
+  "preguntas": [
+    {
+      "id": "diag-par-01",
+      "numero": 1,
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Qué describe un algoritmo?",
+      "obligatoria": true,
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Una secuencia de pasos para resolver un problema"
+        },
+        {
+          "id": "b",
+          "texto": "Una marca de procesador"
+        },
+        {
+          "id": "c",
+          "texto": "Una dirección de memoria"
+        },
+        {
+          "id": "d",
+          "texto": "Un tipo de monitor"
+        }
+      ],
+      "respuestaCorrecta": "a"
+    },
+    {
+      "id": "diag-par-02",
+      "numero": 2,
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Qué caracteriza a un arreglo?",
+      "obligatoria": true,
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Solo almacena instrucciones"
+        },
+        {
+          "id": "b",
+          "texto": "Organiza elementos accesibles por índice"
+        },
+        {
+          "id": "c",
+          "texto": "No permite recorrer datos"
+        },
+        {
+          "id": "d",
+          "texto": "Siempre tiene un único elemento"
+        }
+      ],
+      "respuestaCorrecta": "b"
+    },
+    {
+      "id": "diag-par-03",
+      "numero": 3,
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Qué expresa una dependencia de datos?",
+      "obligatoria": true,
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "La cantidad de colores de una interfaz"
+        },
+        {
+          "id": "b",
+          "texto": "El nombre de una variable"
+        },
+        {
+          "id": "c",
+          "texto": "Una operación necesita un resultado de otra"
+        },
+        {
+          "id": "d",
+          "texto": "La velocidad nominal de la red"
+        }
+      ],
+      "respuestaCorrecta": "c"
+    },
+    {
+      "id": "diag-par-04",
+      "numero": 4,
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Qué significa ejecutar tareas en paralelo?",
+      "obligatoria": true,
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Ejecutarlas siempre una después de otra"
+        },
+        {
+          "id": "b",
+          "texto": "Eliminar todas las variables"
+        },
+        {
+          "id": "c",
+          "texto": "Usar un solo hilo obligatoriamente"
+        },
+        {
+          "id": "d",
+          "texto": "Realizar trabajo simultáneo en varios recursos"
+        }
+      ],
+      "respuestaCorrecta": "d"
+    },
+    {
+      "id": "diag-par-05",
+      "numero": 5,
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Qué es un hilo?",
+      "obligatoria": true,
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Una unidad de ejecución dentro de un proceso"
+        },
+        {
+          "id": "b",
+          "texto": "Un archivo de imagen"
+        },
+        {
+          "id": "c",
+          "texto": "Una memoria externa"
+        },
+        {
+          "id": "d",
+          "texto": "Un protocolo de correo"
+        }
+      ],
+      "respuestaCorrecta": "a"
+    },
+    {
+      "id": "diag-par-06",
+      "numero": 6,
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Cuándo puede aparecer una condición de carrera?",
+      "obligatoria": true,
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Al leer una constante"
+        },
+        {
+          "id": "b",
+          "texto": "Al acceder sin coordinación a un estado compartido con escrituras"
+        },
+        {
+          "id": "c",
+          "texto": "Al documentar un algoritmo"
+        },
+        {
+          "id": "d",
+          "texto": "Al ejecutar tareas independientes sin estado compartido"
+        }
+      ],
+      "respuestaCorrecta": "b"
+    },
+    {
+      "id": "diag-par-07",
+      "numero": 7,
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Qué busca la exclusión mutua?",
+      "obligatoria": true,
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Aumentar el tamaño del arreglo"
+        },
+        {
+          "id": "b",
+          "texto": "Eliminar la memoria"
+        },
+        {
+          "id": "c",
+          "texto": "Evitar accesos simultáneos a una sección crítica"
+        },
+        {
+          "id": "d",
+          "texto": "Duplicar cada proceso"
+        }
+      ],
+      "respuestaCorrecta": "c"
+    },
+    {
+      "id": "diag-par-08",
+      "numero": 8,
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Cómo colaboran procesos con memoria distribuida?",
+      "obligatoria": true,
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Compartiendo siempre todas las variables"
+        },
+        {
+          "id": "b",
+          "texto": "Sin intercambiar información nunca"
+        },
+        {
+          "id": "c",
+          "texto": "Mediante un único registro de CPU"
+        },
+        {
+          "id": "d",
+          "texto": "Intercambiando mensajes"
+        }
+      ],
+      "respuestaCorrecta": "d"
+    },
+    {
+      "id": "diag-par-09",
+      "numero": 9,
+      "tipo": "opcion-multiple",
+      "enunciado": "Si T(1)=100 s y T(4)=40 s, ¿cuál es la aceleración?",
+      "obligatoria": true,
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "2.5"
+        },
+        {
+          "id": "b",
+          "texto": "4"
+        },
+        {
+          "id": "c",
+          "texto": "40"
+        },
+        {
+          "id": "d",
+          "texto": "0.4"
+        }
+      ],
+      "respuestaCorrecta": "a"
+    },
+    {
+      "id": "diag-par-10",
+      "numero": 10,
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Cuál es la eficiencia si S(4)=3?",
+      "obligatoria": true,
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "12"
+        },
+        {
+          "id": "b",
+          "texto": "0.75"
+        },
+        {
+          "id": "c",
+          "texto": "7"
+        },
+        {
+          "id": "d",
+          "texto": "3"
+        }
+      ],
+      "respuestaCorrecta": "b"
+    },
+    {
+      "id": "diag-par-11",
+      "numero": 11,
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Qué debe comprobarse al paralelizar un programa?",
+      "obligatoria": true,
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Solo el número de líneas"
+        },
+        {
+          "id": "b",
+          "texto": "Solo el color del editor"
+        },
+        {
+          "id": "c",
+          "texto": "La corrección de los resultados y el rendimiento"
+        },
+        {
+          "id": "d",
+          "texto": "Solo el nombre del archivo"
+        }
+      ],
+      "respuestaCorrecta": "c"
+    },
+    {
+      "id": "diag-par-12",
+      "numero": 12,
+      "tipo": "opcion-multiple",
+      "enunciado": "¿Qué representa una arista de un grafo de tareas?",
+      "obligatoria": true,
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Una licencia de software"
+        },
+        {
+          "id": "b",
+          "texto": "El tamaño de pantalla"
+        },
+        {
+          "id": "c",
+          "texto": "Una tecla del equipo"
+        },
+        {
+          "id": "d",
+          "texto": "Una relación o dependencia entre tareas"
+        }
+      ],
+      "respuestaCorrecta": "d"
+    }
+  ]
+}

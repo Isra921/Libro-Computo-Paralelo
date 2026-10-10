@@ -1,0 +1,79 @@
+{
+  "id": "unidad-01",
+  "numero": 1,
+  "titulo": "Acercamiento al cómputo paralelo",
+  "descripcion": "Describe los tipos de arquitectura paralela con base en sus alcances, características y aplicaciones.",
+  "lema": "Explora, diseña y analiza soluciones paralelas. Edición provisional.",
+  "duracion_horas": 6,
+  "introduccion": [
+    "Contenido de muestra pendiente de validación académica. Los títulos y la organización se basan en el programa proporcionado; los desarrollos y ejercicios son provisionales.",
+    "El paralelismo permite repartir trabajo entre varias unidades de procesamiento. La concurrencia describe tareas cuyo avance se solapa; su ejecución no tiene que ser simultánea. Antes de acelerar un programa, se deben reconocer sus dependencias y comprobar sus resultados."
+  ],
+  "recorrido": "Lee cada tema, consulta sus subtemas y realiza los ejercicios de muestra antes de la actividad integradora.",
+  "temas": [
+    {
+      "numero": "1.1",
+      "nombre": "Motivación, bases y alcances del cómputo paralelo: características",
+      "sintesis": "El paralelismo permite repartir trabajo entre varias unidades de procesamiento. La concurrencia describe tareas cuyo avance se solapa; su ejecución no tiene que ser simultánea. Antes de acelerar un programa, se deben reconocer sus dependencias y comprobar sus resultados.",
+      "url": "unidades/unidad-01/temas/tema-01-01.html",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 1.1",
+        "url": "unidades/unidad-01/actividades/actividad-1-1.html"
+      }
+    },
+    {
+      "numero": "1.2",
+      "nombre": "Arquitecturas de computadoras paralelas",
+      "sintesis": "Una arquitectura paralela combina recursos de procesamiento, memoria y comunicación. Un equipo multinúcleo y un cluster pueden resolver problemas similares, pero tienen distintos costos de acceso a datos y coordinación.",
+      "url": "",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 1.2",
+        "url": ""
+      }
+    },
+    {
+      "numero": "1.3",
+      "nombre": "Taxonomía de Flynn",
+      "sintesis": "La taxonomía de Flynn clasifica arquitecturas según los flujos de instrucciones y datos. SIMD aplica una misma operación a varios datos, mientras que MIMD permite que distintas unidades ejecuten instrucciones diferentes.",
+      "url": "",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 1.3",
+        "url": ""
+      }
+    },
+    {
+      "numero": "1.4",
+      "nombre": "Modelos de cómputo paralelo",
+      "sintesis": "El modelo de programación define cómo se expresa la colaboración entre tareas. En memoria compartida se coordinan accesos a datos comunes; en memoria distribuida se intercambian mensajes; en flujo de datos la disponibilidad de entradas determina la ejecución.",
+      "url": "",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 1.4",
+        "url": ""
+      }
+    }
+  ],
+  "objetivo": "Describe los tipos de arquitectura paralela con base en sus alcances, características y aplicaciones.",
+  "competencias": [
+    "Describe los tipos de arquitectura paralela con base en sus alcances, características y aplicaciones.",
+    "Justifica decisiones de diseño y comprueba resultados con evidencias reproducibles."
+  ],
+  "video": {
+    "titulo": "Video pendiente de validación",
+    "url": ""
+  },
+  "material_apoyo": [
+    {
+      "nombre": "Referencias de la unidad",
+      "url": "unidades/unidad-01/referencias.html"
+    },
+    {
+      "nombre": "Programa académico (PDF)",
+      "url": "assets/docs/computoParalelo_IIA2020.pdf"
+    }
+  ],
+  "actividad_final": {
+    "nombre": "Actividad integradora 1: Acercamiento al cómputo paralelo",
+    "descripcion": "Propuesta de trabajo y autoevaluación provisional.",
+    "url": "unidades/unidad-01/actividades/actividad-final.html"
+  }
+}

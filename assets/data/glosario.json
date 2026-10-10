@@ -1,0 +1,140 @@
+{
+  "titulo": "Glosario de términos · Muestra provisional",
+  "boton_cerrar": "Cerrar ventana",
+  "textos": {
+    "buscador_etiqueta": "Buscar en el glosario",
+    "buscador_placeholder": "Escribe un término o una palabra de su definición…",
+    "contador_total": "{total} términos",
+    "contador_filtrado": "{visibles} de {total} términos",
+    "sin_resultados": "No hay términos que coincidan con «{busqueda}»."
+  },
+  "unidades": [
+    {
+      "id": "unidad-01",
+      "pestana": "Unidad 1",
+      "titulo": "Acercamiento al cómputo paralelo",
+      "terminos": [
+        {
+          "termino": "Motivación, bases y alcances del cómputo paralelo: características",
+          "definicion": "El paralelismo permite repartir trabajo entre varias unidades de procesamiento. La concurrencia describe tareas cuyo avance se solapa; su ejecución no tiene que ser simultánea. Antes de acelerar un programa, se deben reconocer sus dependencias y comprobar sus resultados."
+        },
+        {
+          "termino": "Arquitecturas de computadoras paralelas",
+          "definicion": "Una arquitectura paralela combina recursos de procesamiento, memoria y comunicación. Un equipo multinúcleo y un cluster pueden resolver problemas similares, pero tienen distintos costos de acceso a datos y coordinación."
+        },
+        {
+          "termino": "Taxonomía de Flynn",
+          "definicion": "La taxonomía de Flynn clasifica arquitecturas según los flujos de instrucciones y datos. SIMD aplica una misma operación a varios datos, mientras que MIMD permite que distintas unidades ejecuten instrucciones diferentes."
+        },
+        {
+          "termino": "Modelos de cómputo paralelo",
+          "definicion": "El modelo de programación define cómo se expresa la colaboración entre tareas. En memoria compartida se coordinan accesos a datos comunes; en memoria distribuida se intercambian mensajes; en flujo de datos la disponibilidad de entradas determina la ejecución."
+        }
+      ]
+    },
+    {
+      "id": "unidad-02",
+      "pestana": "Unidad 2",
+      "titulo": "Diseño y análisis de programas paralelos",
+      "terminos": [
+        {
+          "termino": "Clases de problemas solucionables usando cómputo paralelo",
+          "definicion": "Una tarea es candidata a ejecución paralela cuando sus dependencias permiten realizar parte del trabajo de forma independiente. Sumar bloques de un arreglo ilustra una descomposición: cada bloque produce un resultado parcial y después se combinan los resultados."
+        },
+        {
+          "termino": "Tipos de paralelización",
+          "definicion": "La paralelización de datos distribuye conjuntos de elementos entre trabajadores. La funcional separa operaciones distintas. Las estrategias recursivas, exploratorias y especulativas permiten organizar otros problemas, con costos y restricciones propios."
+        },
+        {
+          "termino": "Diseño de algoritmos paralelos",
+          "definicion": "La granularidad representa el tamaño del trabajo de cada tarea. Muchas tareas pequeñas pueden mejorar el reparto, pero aumentar la coordinación. El diseño debe equilibrar trabajo útil, comunicación y sincronización."
+        },
+        {
+          "termino": "Método Foster",
+          "definicion": "El método de Foster organiza el diseño en cuatro etapas: particionar el problema, identificar comunicaciones, agrupar tareas y asignarlas a los recursos. Separar estas decisiones ayuda a comparar alternativas antes de implementar."
+        },
+        {
+          "termino": "Análisis de rendimiento para programas paralelos",
+          "definicion": "La aceleración se calcula como S(p) = T(1) / T(p), y la eficiencia como E(p) = S(p) / p. Por ejemplo, 80 segundos en un procesador y 25 en cuatro producen una aceleración de 3.2 y eficiencia de 0.8. Las mediciones deben comparar el mismo problema y condiciones equivalentes."
+        }
+      ]
+    },
+    {
+      "id": "unidad-03",
+      "pestana": "Unidad 3",
+      "titulo": "Programación paralela en sistemas de memoria compartida",
+      "terminos": [
+        {
+          "termino": "Cómputo paralelo usando memoria compartida",
+          "definicion": "Los trabajadores pueden acceder a un espacio de direcciones compartido. Esta facilidad exige coordinar las escrituras: dos hilos que actualizan un contador sin protección pueden perder incrementos."
+        },
+        {
+          "termino": "Caché",
+          "definicion": "La caché conserva datos próximos al procesador para reducir el costo de acceso. La localidad temporal y espacial influye en el rendimiento. Un recorrido contiguo de un arreglo puede aprovechar mejor cada bloque transferido."
+        },
+        {
+          "termino": "Política de escritura",
+          "definicion": "Write-through propaga las escrituras al siguiente nivel de memoria. Write-back puede aplazarlas hasta que se reemplace un bloque modificado. Estas políticas implican distintos costos de tráfico y gestión."
+        },
+        {
+          "termino": "Coherencia de caché",
+          "definicion": "La coherencia coordina las copias de una misma ubicación de memoria en varias cachés. Los mecanismos de observación del tráfico y los directorios son enfoques para controlar qué copias permanecen válidas."
+        },
+        {
+          "termino": "Consistencia de memoria",
+          "definicion": "La consistencia define qué órdenes de lectura y escritura pueden observar los hilos. En consistencia secuencial, el resultado equivale a un orden global que respeta el orden de cada hilo."
+        },
+        {
+          "termino": "Interfaces de programación de aplicaciones y lenguajes de programación",
+          "definicion": "Las interfaces de programación permiten expresar regiones paralelas, repartir iteraciones y sincronizar trabajadores. Como ejemplo provisional, una reducción combina resultados locales para evitar que todos escriban simultáneamente en un acumulador compartido."
+        }
+      ]
+    },
+    {
+      "id": "unidad-04",
+      "pestana": "Unidad 4",
+      "titulo": "Programación paralela en sistemas distribuidos",
+      "terminos": [
+        {
+          "termino": "Cómputo paralelo usando memoria distribuida",
+          "definicion": "Cada proceso dispone de memoria local y comunica los datos que necesitan otros procesos. Una suma distribuida divide el arreglo, calcula sumas locales y combina sus resultados mediante comunicación."
+        },
+        {
+          "termino": "Ruteo",
+          "definicion": "El ruteo decide por dónde viaja la información entre nodos. La topología y las rutas afectan la latencia, la congestión y la posibilidad de bloqueo. Una comunicación colectiva puede requerir varios pasos."
+        },
+        {
+          "termino": "Conmutación",
+          "definicion": "La conmutación organiza el uso de enlaces para transferir información. Reservar una conexión y dividir un mensaje en paquetes son estrategias distintas, con efectos sobre el establecimiento, el almacenamiento y la utilización de recursos."
+        },
+        {
+          "termino": "APIs y lenguajes de programación",
+          "definicion": "Las interfaces de paso de mensajes ofrecen operaciones para enviar, recibir y combinar datos. El diseño debe hacer coincidir participantes, tipos de datos y orden de operaciones para evitar esperas que impidan avanzar."
+        }
+      ]
+    },
+    {
+      "id": "unidad-05",
+      "pestana": "Unidad 5",
+      "titulo": "Programación basada en el flujo de datos",
+      "terminos": [
+        {
+          "termino": "Cómputo paralelo usando flujos de datos",
+          "definicion": "Un grafo de flujo de datos representa operaciones y dependencias. Una operación puede comenzar cuando están disponibles sus entradas. Las ramas independientes del grafo revelan oportunidades de paralelismo."
+        },
+        {
+          "termino": "Aceleradores paralelos",
+          "definicion": "Un acelerador ejecuta determinadas clases de trabajo con muchos recursos paralelos. La aceleración total depende también del movimiento de datos y de la parte del programa que permanece en el procesador anfitrión."
+        },
+        {
+          "termino": "Procesadores de flujo",
+          "definicion": "Los procesadores de flujo aplican operaciones a secuencias de elementos. Agrupar trabajo regular y aprovechar la localidad de datos ayuda a mantener ocupadas las unidades de ejecución."
+        },
+        {
+          "termino": "APIs y lenguajes de programación",
+          "definicion": "Una interfaz para aceleradores permite preparar datos, lanzar operaciones y recuperar resultados. El ejemplo didáctico propuesto compara una transformación de un arreglo con su versión secuencial y registra el tiempo completo, incluidas las transferencias."
+        }
+      ]
+    }
+  ]
+}

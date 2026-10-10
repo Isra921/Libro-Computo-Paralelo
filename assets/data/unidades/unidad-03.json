@@ -1,0 +1,99 @@
+{
+  "id": "unidad-03",
+  "numero": 3,
+  "titulo": "Programación paralela en sistemas de memoria compartida",
+  "descripcion": "Elabora programas paralelos con base en las políticas y la memoria compartida.",
+  "lema": "Explora, diseña y analiza soluciones paralelas. Edición provisional.",
+  "duracion_horas": 19,
+  "introduccion": [
+    "Contenido de muestra pendiente de validación académica. Los títulos y la organización se basan en el programa proporcionado; los desarrollos y ejercicios son provisionales.",
+    "Los trabajadores pueden acceder a un espacio de direcciones compartido. Esta facilidad exige coordinar las escrituras: dos hilos que actualizan un contador sin protección pueden perder incrementos."
+  ],
+  "recorrido": "Lee cada tema, consulta sus subtemas y realiza los ejercicios de muestra antes de la actividad integradora.",
+  "temas": [
+    {
+      "numero": "3.1",
+      "nombre": "Cómputo paralelo usando memoria compartida",
+      "sintesis": "Los trabajadores pueden acceder a un espacio de direcciones compartido. Esta facilidad exige coordinar las escrituras: dos hilos que actualizan un contador sin protección pueden perder incrementos.",
+      "url": "",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 3.1",
+        "url": ""
+      }
+    },
+    {
+      "numero": "3.2",
+      "nombre": "Caché",
+      "sintesis": "La caché conserva datos próximos al procesador para reducir el costo de acceso. La localidad temporal y espacial influye en el rendimiento. Un recorrido contiguo de un arreglo puede aprovechar mejor cada bloque transferido.",
+      "url": "",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 3.2",
+        "url": ""
+      }
+    },
+    {
+      "numero": "3.3",
+      "nombre": "Política de escritura",
+      "sintesis": "Write-through propaga las escrituras al siguiente nivel de memoria. Write-back puede aplazarlas hasta que se reemplace un bloque modificado. Estas políticas implican distintos costos de tráfico y gestión.",
+      "url": "",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 3.3",
+        "url": ""
+      }
+    },
+    {
+      "numero": "3.4",
+      "nombre": "Coherencia de caché",
+      "sintesis": "La coherencia coordina las copias de una misma ubicación de memoria en varias cachés. Los mecanismos de observación del tráfico y los directorios son enfoques para controlar qué copias permanecen válidas.",
+      "url": "",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 3.4",
+        "url": ""
+      }
+    },
+    {
+      "numero": "3.5",
+      "nombre": "Consistencia de memoria",
+      "sintesis": "La consistencia define qué órdenes de lectura y escritura pueden observar los hilos. En consistencia secuencial, el resultado equivale a un orden global que respeta el orden de cada hilo.",
+      "url": "",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 3.5",
+        "url": ""
+      }
+    },
+    {
+      "numero": "3.6",
+      "nombre": "Interfaces de programación de aplicaciones y lenguajes de programación",
+      "sintesis": "Las interfaces de programación permiten expresar regiones paralelas, repartir iteraciones y sincronizar trabajadores. Como ejemplo provisional, una reducción combina resultados locales para evitar que todos escriban simultáneamente en un acumulador compartido.",
+      "url": "",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 3.6",
+        "url": ""
+      }
+    }
+  ],
+  "objetivo": "Elabora programas paralelos con base en las políticas y la memoria compartida.",
+  "competencias": [
+    "Elabora programas paralelos con base en las políticas y la memoria compartida.",
+    "Justifica decisiones de diseño y comprueba resultados con evidencias reproducibles."
+  ],
+  "video": {
+    "titulo": "Video pendiente de validación",
+    "url": ""
+  },
+  "material_apoyo": [
+    {
+      "nombre": "Referencias de la unidad",
+      "url": "unidades/unidad-03/referencias.html"
+    },
+    {
+      "nombre": "Programa académico (PDF)",
+      "url": "assets/docs/computoParalelo_IIA2020.pdf"
+    }
+  ],
+  "actividad_final": {
+    "nombre": "Actividad integradora 3: Programación paralela en sistemas de memoria compartida",
+    "descripcion": "Próximamente. Actividad pendiente de validación académica.",
+    "url": ""
+  }
+}

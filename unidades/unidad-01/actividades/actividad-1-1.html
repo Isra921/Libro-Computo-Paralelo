@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Actividad de aprendizaje 1.1 | Cómputo Paralelo</title>
+  <meta name="description" content="Actividad interactiva de aprendizaje del tema 1.1: Motivación, bases y alcances del cómputo paralelo.">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="../../../assets/css/comun.css">
+  <link rel="stylesheet" href="../../../assets/css/unidades-base.css">
+  <link rel="stylesheet" href="../../../assets/css/actividad.css">
+
+  <link rel="icon" type="image/png" href="../../../assets/img/ESCOMB.png">
+</head>
+
+<body class="u-body" data-root="../../../" data-unidad="unidad-01" data-tema="1.1"
+  data-preguntas="assets/data/unidad-1/preguntas_1.1.json" data-cantidad="10">
+
+  <!-- Barra de navegación global unificada mediante componente dinámico -->
+  <header class="site-nav" data-componente="navegacion"></header>
+
+  <main class="u-page">
+
+    <div class="a-layout">
+      <div class="a-main">
+        <!-- Encabezado de la actividad -->
+        <header class="a-card a-head">
+          <div class="a-head__top">
+            <span class="a-badge">Actividad de aprendizaje</span>
+            <span class="a-head__where">Unidad I · 1.1</span>
+          </div>
+          <p class="u-eyebrow">Ejemplo provisional · Pendiente de validación</p><h1 class="a-title">Actividad de aprendizaje 1.1</h1>
+          <p class="a-purpose">
+            Refuerza los conceptos clave del tema 1.1 <strong>Motivación, bases y alcances del cómputo paralelo</strong> con preguntas interactivas sobre concurrencia, paralelismo, hilos, comunicación y corrección de programas.
+          </p>
+          <ul class="a-chips" aria-label="Datos de la actividad">
+            <li class="u-chip u-chip--soft"><i class="fas fa-shapes" aria-hidden="true"></i> Tipo: interactiva</li>
+            <li class="u-chip u-chip--soft"><i class="fas fa-list-ol" aria-hidden="true"></i> Preguntas: <strong id="totalPreguntas">10</strong></li>
+            <li class="u-chip u-chip--soft"><i class="far fa-clock" aria-hidden="true"></i> Duración estimada: 10 min</li>
+            <li class="u-chip u-chip--soft"><i class="fas fa-rotate" aria-hidden="true"></i> Intentos: ilimitados</li>
+            <li class="u-chip a-chip--outline">Sin valor en la calificación</li>
+            <li class="u-chip u-chip--accent" id="ultimoResultado" hidden><i class="fas fa-chart-simple" aria-hidden="true"></i> Último resultado: <strong></strong></li>
+          </ul>
+        </header>
+
+        <!-- Instrucciones -->
+        <section class="a-card" aria-labelledby="instruccionesTitulo">
+          <h2 class="a-card__title" id="instruccionesTitulo">Instrucciones</h2>
+          <ol class="a-steps">
+            <li>Repasa el tema 1.1 antes de responder; cada intento toma 10 preguntas pedagógicas del banco de reactivos.</li>
+            <li>Lee atentamente cada enunciado, selecciona o coloca tu respuesta y pulsa <strong>Comprobar respuesta</strong>. Con <strong>Reiniciar</strong> comienzas un intento nuevo.</li>
+            <li>Revisa la retroalimentación técnica: si fallas, se explicará el concepto correcto para reforzar tu aprendizaje.</li>
+          </ol>
+        </section>
+
+        <!-- Contenedor del ejercicio interactivo -->
+        <section class="a-card a-exercise" aria-labelledby="ejercicioTitulo">
+          <div class="a-exercise__bar">
+            <h2 class="a-exercise__label" id="ejercicioTitulo">Ejercicio</h2>
+            <span class="a-exercise__count" id="ejercicioContador" aria-live="polite"></span>
+          </div>
+          <div class="a-exercise__body" id="ejercicio" aria-busy="true">
+            <p class="u-loading">Cargando preguntas…</p>
+          </div>
+        </section>
+
+        <!-- Caja de retroalimentación -->
+        <div id="retroalimentacion" aria-live="polite"></div>
+
+        <!-- Navegación inferior -->
+        <nav class="a-pager" id="actividadNavegacion" aria-label="Navegación de la actividad">
+          <a class="a-pager__prev" href="../temas/tema-01-01.html"><i class="fas fa-arrow-left" aria-hidden="true"></i> Volver al tema 1.1</a>
+        </nav>
+      </div>
+
+      <!-- Barra lateral -->
+      <aside class="a-sidebar" aria-label="Información de la actividad">
+        <section class="a-side-card a-side-card--dark" aria-labelledby="antesTitulo">
+          <p class="a-side-title" id="antesTitulo">Antes de empezar</p>
+          <p class="a-side-text">Esta actividad es formativa y te ayuda a evaluar tu comprensión de la computación paralela.</p>
+          <a class="a-side-link" id="enlaceRepaso" href="../temas/tema-01-01.html"><i class="fas fa-book-open" aria-hidden="true"></i> <span>Repasar el tema 1.1</span></a>
+        </section>
+
+        <nav class="a-side-card" aria-labelledby="otrasTitulo">
+          <p class="a-side-title" id="otrasTitulo">Otras actividades</p>
+          <div id="otrasActividades">
+            <a class="a-side-item" href="../index.html"><i class="fas fa-arrow-left" aria-hidden="true"></i> Volver a la unidad</a>
+          </div>
+        </nav>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="u-footer">
+    <div class="u-footer__inner">
+      <p>Cómputo Paralelo · Polilibro académico · ESCOM-IPN</p>
+      <p>Desarrollado con fines educativos · © 2026</p>
+    </div>
+  </footer>
+
+  <!-- Scripts modulares -->
+  <script src="../../../assets/js/data-manager.js"></script>
+  <script src="../../../assets/js/componentes.js"></script>
+  <script src="../../../assets/js/unidades-ui.js"></script>
+  <script src="../../../assets/js/paginas/actividad-plantilla.js"></script>
+</body>
+
+</html>

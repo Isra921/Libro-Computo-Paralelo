@@ -1,0 +1,89 @@
+{
+  "id": "unidad-02",
+  "numero": 2,
+  "titulo": "Diseño y análisis de programas paralelos",
+  "descripcion": "Distingue el diseño de algoritmos paralelos a partir de los tipos de paralelización, el método de Foster y su análisis de rendimiento.",
+  "lema": "Explora, diseña y analiza soluciones paralelas. Edición provisional.",
+  "duracion_horas": 18,
+  "introduccion": [
+    "Contenido de muestra pendiente de validación académica. Los títulos y la organización se basan en el programa proporcionado; los desarrollos y ejercicios son provisionales.",
+    "Una tarea es candidata a ejecución paralela cuando sus dependencias permiten realizar parte del trabajo de forma independiente. Sumar bloques de un arreglo ilustra una descomposición: cada bloque produce un resultado parcial y después se combinan los resultados."
+  ],
+  "recorrido": "Lee cada tema, consulta sus subtemas y realiza los ejercicios de muestra antes de la actividad integradora.",
+  "temas": [
+    {
+      "numero": "2.1",
+      "nombre": "Clases de problemas solucionables usando cómputo paralelo",
+      "sintesis": "Una tarea es candidata a ejecución paralela cuando sus dependencias permiten realizar parte del trabajo de forma independiente. Sumar bloques de un arreglo ilustra una descomposición: cada bloque produce un resultado parcial y después se combinan los resultados.",
+      "url": "",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 2.1",
+        "url": ""
+      }
+    },
+    {
+      "numero": "2.2",
+      "nombre": "Tipos de paralelización",
+      "sintesis": "La paralelización de datos distribuye conjuntos de elementos entre trabajadores. La funcional separa operaciones distintas. Las estrategias recursivas, exploratorias y especulativas permiten organizar otros problemas, con costos y restricciones propios.",
+      "url": "",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 2.2",
+        "url": ""
+      }
+    },
+    {
+      "numero": "2.3",
+      "nombre": "Diseño de algoritmos paralelos",
+      "sintesis": "La granularidad representa el tamaño del trabajo de cada tarea. Muchas tareas pequeñas pueden mejorar el reparto, pero aumentar la coordinación. El diseño debe equilibrar trabajo útil, comunicación y sincronización.",
+      "url": "",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 2.3",
+        "url": ""
+      }
+    },
+    {
+      "numero": "2.4",
+      "nombre": "Método Foster",
+      "sintesis": "El método de Foster organiza el diseño en cuatro etapas: particionar el problema, identificar comunicaciones, agrupar tareas y asignarlas a los recursos. Separar estas decisiones ayuda a comparar alternativas antes de implementar.",
+      "url": "",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 2.4",
+        "url": ""
+      }
+    },
+    {
+      "numero": "2.5",
+      "nombre": "Análisis de rendimiento para programas paralelos",
+      "sintesis": "La aceleración se calcula como S(p) = T(1) / T(p), y la eficiencia como E(p) = S(p) / p. Por ejemplo, 80 segundos en un procesador y 25 en cuatro producen una aceleración de 3.2 y eficiencia de 0.8. Las mediciones deben comparar el mismo problema y condiciones equivalentes.",
+      "url": "",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 2.5",
+        "url": ""
+      }
+    }
+  ],
+  "objetivo": "Distingue el diseño de algoritmos paralelos a partir de los tipos de paralelización, el método de Foster y su análisis de rendimiento.",
+  "competencias": [
+    "Distingue el diseño de algoritmos paralelos a partir de los tipos de paralelización, el método de Foster y su análisis de rendimiento.",
+    "Justifica decisiones de diseño y comprueba resultados con evidencias reproducibles."
+  ],
+  "video": {
+    "titulo": "Video pendiente de validación",
+    "url": ""
+  },
+  "material_apoyo": [
+    {
+      "nombre": "Referencias de la unidad",
+      "url": "unidades/unidad-02/referencias.html"
+    },
+    {
+      "nombre": "Programa académico (PDF)",
+      "url": "assets/docs/computoParalelo_IIA2020.pdf"
+    }
+  ],
+  "actividad_final": {
+    "nombre": "Actividad integradora 2: Diseño y análisis de programas paralelos",
+    "descripcion": "Próximamente. Actividad pendiente de validación académica.",
+    "url": ""
+  }
+}

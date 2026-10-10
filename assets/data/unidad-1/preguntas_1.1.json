@@ -1,0 +1,112 @@
+[
+  {
+    "type": "opcion_multiple",
+    "question": "¿Qué distingue al paralelismo?",
+    "options": [
+      "La ejecución simultánea de trabajo en varios recursos",
+      "La ejecución obligatoria en un solo núcleo",
+      "La ausencia de tareas"
+    ],
+    "answer": "La ejecución simultánea de trabajo en varios recursos",
+    "explicacion": "La ejecución simultánea de trabajo en varios recursos. Este principio ayuda a diseñar programas paralelos correctos."
+  },
+  {
+    "type": "opcion_multiple",
+    "question": "¿La concurrencia requiere ejecución simultánea?",
+    "options": [
+      "Sí, siempre",
+      "No; las tareas pueden alternar su avance",
+      "Solo cuando no hay memoria"
+    ],
+    "answer": "No; las tareas pueden alternar su avance",
+    "explicacion": "No; las tareas pueden alternar su avance. Este principio ayuda a diseñar programas paralelos correctos."
+  },
+  {
+    "type": "opcion_multiple",
+    "question": "¿Qué es un hilo?",
+    "options": [
+      "Un archivo",
+      "Una unidad de ejecución dentro de un proceso",
+      "Una red física"
+    ],
+    "answer": "Una unidad de ejecución dentro de un proceso",
+    "explicacion": "Una unidad de ejecución dentro de un proceso. Este principio ayuda a diseñar programas paralelos correctos."
+  },
+  {
+    "type": "opcion_multiple",
+    "question": "¿Qué permite la comunicación entre procesos?",
+    "options": [
+      "Intercambiar datos y coordinar trabajo",
+      "Eliminar dependencias automáticamente",
+      "Garantizar aceleración ilimitada"
+    ],
+    "answer": "Intercambiar datos y coordinar trabajo",
+    "explicacion": "Intercambiar datos y coordinar trabajo. Este principio ayuda a diseñar programas paralelos correctos."
+  },
+  {
+    "type": "opcion_multiple",
+    "question": "¿Qué debe conservar una versión paralela?",
+    "options": [
+      "El mismo número de líneas",
+      "La corrección de los resultados",
+      "La misma duración"
+    ],
+    "answer": "La corrección de los resultados",
+    "explicacion": "La corrección de los resultados. Este principio ayuda a diseñar programas paralelos correctos."
+  },
+  {
+    "type": "opcion_multiple",
+    "question": "¿Qué puede provocar una condición de carrera?",
+    "options": [
+      "Leer una constante",
+      "Actualizar un dato compartido sin coordinación",
+      "Dividir tareas independientes"
+    ],
+    "answer": "Actualizar un dato compartido sin coordinación",
+    "explicacion": "Actualizar un dato compartido sin coordinación. Este principio ayuda a diseñar programas paralelos correctos."
+  },
+  {
+    "type": "opcion_multiple",
+    "question": "¿Qué describe un sistema distribuido?",
+    "options": [
+      "Componentes en distintos nodos que se comunican",
+      "Un único registro",
+      "Una secuencia sin comunicación"
+    ],
+    "answer": "Componentes en distintos nodos que se comunican",
+    "explicacion": "Componentes en distintos nodos que se comunican. Este principio ayuda a diseñar programas paralelos correctos."
+  },
+  {
+    "type": "opcion_multiple",
+    "question": "¿Qué limita el paralelismo de una tarea?",
+    "options": [
+      "Las dependencias entre operaciones",
+      "El nombre del archivo",
+      "El color de la pantalla"
+    ],
+    "answer": "Las dependencias entre operaciones",
+    "explicacion": "Las dependencias entre operaciones. Este principio ayuda a diseñar programas paralelos correctos."
+  },
+  {
+    "type": "opcion_multiple",
+    "question": "¿Qué significa sincronizar tareas?",
+    "options": [
+      "Coordinar su avance o acceso a recursos",
+      "Duplicar todos los datos",
+      "Eliminar todos los hilos"
+    ],
+    "answer": "Coordinar su avance o acceso a recursos",
+    "explicacion": "Coordinar su avance o acceso a recursos. Este principio ayuda a diseñar programas paralelos correctos."
+  },
+  {
+    "type": "opcion_multiple",
+    "question": "¿Qué conviene hacer antes de paralelizar?",
+    "options": [
+      "Agregar hilos sin analizar",
+      "Identificar tareas, dependencias y resultados esperados",
+      "Cambiar únicamente el lenguaje"
+    ],
+    "answer": "Identificar tareas, dependencias y resultados esperados",
+    "explicacion": "Identificar tareas, dependencias y resultados esperados. Este principio ayuda a diseñar programas paralelos correctos."
+  }
+]

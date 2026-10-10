@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unidades temáticas | Cómputo Paralelo</title>
+  <meta name="description" content="Unidades temáticas del polilibro Cómputo Paralelo (ESCOM-IPN).">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="assets/css/comun.css">
+  <link rel="stylesheet" href="assets/css/unidades-base.css">
+  <link rel="stylesheet" href="assets/css/unidades.css">
+
+  <link rel="icon" type="image/png" href="assets/img/ESCOMB.png">
+</head>
+
+<!-- data-root: ruta para llegar a la raíz del sitio desde esta página (aquí ya estamos en la raíz) -->
+<body class="u-body" data-root="">
+
+  <header class="site-nav" data-componente="navegacion"></header>
+
+  <main class="u-page">
+    <section class="u-page-head">
+      <div class="u-page-head__text">
+        <h1 id="catalogoTitulo">Unidades temáticas</h1>
+        <p class="u-page-head__lead" id="catalogoDescripcion"></p>
+        <p class="u-summary" id="catalogoResumen" aria-live="polite"></p>
+      </div>
+
+      <div class="u-view-toggle" role="group" aria-label="Ver como">
+        <button type="button" data-vista="tarjetas" aria-pressed="true"><i class="fas fa-grip" aria-hidden="true"></i> Tarjetas</button>
+        <button type="button" data-vista="lista" aria-pressed="false"><i class="fas fa-list" aria-hidden="true"></i> Lista</button>
+      </div>
+    </section>
+
+    <!-- Las tarjetas se generan desde assets/data/unidades-data.json y assets/data/unidades/*.json -->
+    <section class="u-units" id="grid-unidades" aria-label="Unidades disponibles" aria-busy="true">
+      <p class="u-loading">Cargando unidades…</p>
+    </section>
+  </main>
+
+  <footer class="u-footer">
+    <div class="u-footer__inner">
+      <p>Cómputo Paralelo · Polilibro académico · ESCOM-IPN</p>
+      <p>Desarrollado con fines educativos · © 2026</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/data-manager.js"></script>
+  <script src="assets/js/componentes.js"></script>
+  <script src="assets/js/unidades-ui.js"></script>
+  <script src="assets/js/paginas/unidades-catalogo.js"></script>
+</body>
+
+</html>

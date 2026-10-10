@@ -1,0 +1,79 @@
+{
+  "id": "unidad-05",
+  "numero": 5,
+  "titulo": "Programación basada en el flujo de datos",
+  "descripcion": "Elabora programas paralelos con base en principios de aceleradores paralelos y procesadores de flujo.",
+  "lema": "Explora, diseña y analiza soluciones paralelas. Edición provisional.",
+  "duracion_horas": 19,
+  "introduccion": [
+    "Contenido de muestra pendiente de validación académica. Los títulos y la organización se basan en el programa proporcionado; los desarrollos y ejercicios son provisionales.",
+    "Un grafo de flujo de datos representa operaciones y dependencias. Una operación puede comenzar cuando están disponibles sus entradas. Las ramas independientes del grafo revelan oportunidades de paralelismo."
+  ],
+  "recorrido": "Lee cada tema, consulta sus subtemas y realiza los ejercicios de muestra antes de la actividad integradora.",
+  "temas": [
+    {
+      "numero": "5.1",
+      "nombre": "Cómputo paralelo usando flujos de datos",
+      "sintesis": "Un grafo de flujo de datos representa operaciones y dependencias. Una operación puede comenzar cuando están disponibles sus entradas. Las ramas independientes del grafo revelan oportunidades de paralelismo.",
+      "url": "",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 5.1",
+        "url": ""
+      }
+    },
+    {
+      "numero": "5.2",
+      "nombre": "Aceleradores paralelos",
+      "sintesis": "Un acelerador ejecuta determinadas clases de trabajo con muchos recursos paralelos. La aceleración total depende también del movimiento de datos y de la parte del programa que permanece en el procesador anfitrión.",
+      "url": "",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 5.2",
+        "url": ""
+      }
+    },
+    {
+      "numero": "5.3",
+      "nombre": "Procesadores de flujo",
+      "sintesis": "Los procesadores de flujo aplican operaciones a secuencias de elementos. Agrupar trabajo regular y aprovechar la localidad de datos ayuda a mantener ocupadas las unidades de ejecución.",
+      "url": "",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 5.3",
+        "url": ""
+      }
+    },
+    {
+      "numero": "5.4",
+      "nombre": "APIs y lenguajes de programación",
+      "sintesis": "Una interfaz para aceleradores permite preparar datos, lanzar operaciones y recuperar resultados. El ejemplo didáctico propuesto compara una transformación de un arreglo con su versión secuencial y registra el tiempo completo, incluidas las transferencias.",
+      "url": "",
+      "actividad": {
+        "nombre": "Actividad de aprendizaje 5.4",
+        "url": ""
+      }
+    }
+  ],
+  "objetivo": "Elabora programas paralelos con base en principios de aceleradores paralelos y procesadores de flujo.",
+  "competencias": [
+    "Elabora programas paralelos con base en principios de aceleradores paralelos y procesadores de flujo.",
+    "Justifica decisiones de diseño y comprueba resultados con evidencias reproducibles."
+  ],
+  "video": {
+    "titulo": "Video pendiente de validación",
+    "url": ""
+  },
+  "material_apoyo": [
+    {
+      "nombre": "Referencias de la unidad",
+      "url": "unidades/unidad-05/referencias.html"
+    },
+    {
+      "nombre": "Programa académico (PDF)",
+      "url": "assets/docs/computoParalelo_IIA2020.pdf"
+    }
+  ],
+  "actividad_final": {
+    "nombre": "Actividad integradora 5: Programación basada en el flujo de datos",
+    "descripcion": "Próximamente. Actividad pendiente de validación académica.",
+    "url": ""
+  }
+}
